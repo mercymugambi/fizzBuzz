@@ -1,0 +1,16 @@
+module.exports = function (){
+  // write your code here
+  let output = [];
+
+  for (let i=1; i<=100; i+1){
+    if 
+    (i%3 ===0 && i%5 ===0){
+      output.push("fizzBuzz");
+    }else if(i%5 === 0){
+      output.push("Buzz");
+    }else if(i%3 === 0){
+      output.push("Fizz");
+    }
+    return output
+  }
+}
